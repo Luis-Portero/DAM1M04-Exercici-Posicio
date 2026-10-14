@@ -29,7 +29,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /*----------Index----------*/
 .index{
     max-width: 1100px;
@@ -39,11 +38,8 @@ body{
 
 /*Grid y cartas para la página principal*/
 
-
-
-
 /*---Grid para la página de inicio---*/
-.gridIndex{ /*Sirve tanto para Producto como para contacto*/
+.gridIndex{
     padding-top: 70px;
     justify-content: center;
     display: flex;
@@ -96,8 +92,8 @@ body{
     font-size: 1em;
 }
 
-
 /*----------cards----------*/
+
 /*---grid---*/
 .grid{ /*Sirve tanto para Producto como para contacto*/
     padding-top: 70px;
