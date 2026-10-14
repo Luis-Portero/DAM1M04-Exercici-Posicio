@@ -4,6 +4,7 @@ nav{
     min-width: 100%;
     margin-top: 5px;
     
+    margin-left: -10px;
     position: fixed;
     padding: 10px;
     justify-content: center;
@@ -23,6 +24,78 @@ nav a:hover{
     margin: 10px;
 }
 
+/*----------body----------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*----------Index----------*/
+.index{
+    max-width: 1100px;
+    margin:auto;
+
+}
+
+/*Grid y cartas para la página principal*/
+.gridIndex{ /*Sirve tanto para Producto como para contacto*/
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cardIndex{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+.cardIndex > h1{
+    text-decoration: underline;
+    font: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.cardIndex > p{
+    font-size: 15px;
+}
+
+/*para la barra de beneficios*/
+.beneficiList{
+    background-color: black;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+   
+    
+    justify-content: center;
+}
+.benefici{
+    /*background-color: red;*/
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.benefici > h1{
+    color: #fff;
+    text-decoration: underline;
+    font: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.benefici > p{
+    font-size: 1em;
+}
+
+
 /*----------cards----------*/
 /*---grid---*/
 .grid{ /*Sirve tanto para Producto como para contacto*/
@@ -33,7 +106,7 @@ nav a:hover{
     flex-direction: row;
 }
 /*---card---*/
-/*Estascartas solo sirven para Producto*/
+/*---Estascartas solo sirven para Producto---*/
 .producte{
     /*background-color: red;*/
     padding: 10px;
@@ -50,14 +123,12 @@ nav a:hover{
     /*background-color: lime;*/
     padding: 15px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
 }
 .producteDescription{
     background-color: #f0f0f0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -65,12 +136,11 @@ nav a:hover{
     /*background-color: yellow;*/
     padding: 15px;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
-/*Para las tarjetas de contacto*/
+/*---Para las tarjetas de contacto---*/
 .gridContacte{
     padding-top: 40px;
     justify-content: space-around;
@@ -81,7 +151,9 @@ nav a:hover{
     flex-direction: row;
 }
 .contacte{
-    background-color: red;
+    /*background-color: red;*/
+    background-color: #f0f0f0;
+    border: 1px solid #000;
     min-width: 45%;
     padding: 20px;
     margin: 5px;
@@ -90,32 +162,51 @@ nav a:hover{
     
 }
 .contacteText{
-    background-color: green;
+    /*background-color: green;*/
     margin-bottom: 10px;
     padding: 10px;
+    
 }
 .contacteText > h1{
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     font: bold;
     font-size: 2em;
+    text-align: center;
 }
-.conteacteText > h2{
-    font-family: Arial, Helvetica, sans-serif;
+.contacteText > h2{
     font: bold;
     font-size:1.5em
 }
 .contacteText > p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.contacteText > a{
+    text-decoration: none;
+    color: #000;
 }
 .contacteMaps{
     background-color: gray;
     width: 100%;
     height: 200px;
 }
+.contacteFormulariSim{
+    border: 2px solid #000;
+    background-color: #fff;
+    }
+
 
 /*----------footer----------*/
 footer{
-    background-color: red;
-    
+    background-color: #000;
+    margin-left: -9px;
+    margin-right: -8px;
+    padding: 10px;
+}
+footer > h1{
+    color: #fff;
+    font-size: 2em;
+}
+footer > p{
+    color: #fff;
+    font-size: 1em;
 }
